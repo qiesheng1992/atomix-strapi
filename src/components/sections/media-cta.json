@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_media_ctas",
+  "info": {
+    "displayName": "media-cta"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "imageUrl": {
+      "type": "string"
+    },
+    "ctaButtons": {
+      "type": "component",
+      "component": "shared.shared-cta-button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

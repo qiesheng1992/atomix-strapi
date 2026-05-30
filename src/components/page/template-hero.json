@@ -1,0 +1,38 @@
+{
+  "collectionName": "components_page_template_heroes",
+  "info": {
+    "displayName": "template-hero"
+  },
+  "options": {},
+  "attributes": {
+    "titleLine1": {
+      "type": "string"
+    },
+    "titleLine1Style": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "gradient"
+      ]
+    },
+    "titleLine2Parts": {
+      "type": "component",
+      "component": "shared.shared-text-part",
+      "repeatable": true
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "tags": {
+      "type": "component",
+      "component": "shared.shared-tag",
+      "repeatable": true
+    },
+    "ctaButtons": {
+      "type": "component",
+      "component": "shared.shared-cta-button",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

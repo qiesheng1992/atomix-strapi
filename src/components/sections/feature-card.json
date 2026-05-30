@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_sections_feature_cards",
+  "info": {
+    "displayName": "feature-card"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "iconUrl": {
+      "type": "string"
+    },
+    "unselectedIconUrl": {
+      "type": "string"
+    },
+    "videoUrl": {
+      "type": "string"
+    },
+    "backgroundImageUrl": {
+      "type": "string"
+    },
+    "className": {
+      "type": "string"
+    },
+    "actionLabel": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

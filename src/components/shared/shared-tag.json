@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_shared_shared_tags",
+  "info": {
+    "displayName": "tag"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

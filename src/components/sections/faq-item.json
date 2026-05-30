@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_faq_items",
+  "info": {
+    "displayName": "faq-item"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string"
+    },
+    "answer": {
+      "type": "richtext"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

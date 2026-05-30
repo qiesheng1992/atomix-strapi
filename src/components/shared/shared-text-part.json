@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_shared_text_parts",
+  "info": {
+    "displayName": "text-part"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "style": {
+      "type": "enumeration",
+      "enum": [
+        "normal",
+        "gradient"
+      ]
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

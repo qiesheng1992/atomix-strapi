@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_business_process_rows",
+  "info": {
+    "displayName": "process-row"
+  },
+  "options": {},
+  "attributes": {
+    "nodes": {
+      "type": "component",
+      "component": "business.process-node",
+      "repeatable": true
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

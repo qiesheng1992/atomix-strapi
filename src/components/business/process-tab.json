@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_business_process_tabs",
+  "info": {
+    "displayName": "process-tab"
+  },
+  "options": {},
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    },
+    "rows": {
+      "type": "component",
+      "component": "business.process-row",
+      "repeatable": true
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

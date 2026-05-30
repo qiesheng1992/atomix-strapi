@@ -1,0 +1,48 @@
+{
+  "collectionName": "components_shared_shared_cta_buttons",
+  "info": {
+    "displayName": "cta-button"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "primary",
+        "secondary",
+        "styleTwo"
+      ]
+    },
+    "actionType": {
+      "type": "enumeration",
+      "enum": [
+        "install",
+        "ai_adjust",
+        "link",
+        "scroll"
+      ]
+    },
+    "url": {
+      "type": "string"
+    },
+    "iconUrl": {
+      "type": "string"
+    },
+    "openInNewTab": {
+      "type": "boolean"
+    },
+    "sortOrder": {
+      "type": "integer"
+    },
+    "demoEmbedUrl": {
+      "type": "string"
+    },
+    "demoTitle": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

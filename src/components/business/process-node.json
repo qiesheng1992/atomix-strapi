@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_business_process_nodes",
+  "info": {
+    "displayName": "process-node"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    },
+    "styleVariant": {
+      "type": "enumeration",
+      "enum": [
+        "default",
+        "accent",
+        "ghost"
+      ]
+    },
+    "className": {
+      "type": "string"
+    },
+    "sortOrder": {
+      "type": "integer"
+    }
+  },
+  "config": {}
+}

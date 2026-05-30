@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_sections_card_grids",
+  "info": {
+    "displayName": "card-grid"
+  },
+  "options": {},
+  "attributes": {
+    "sectionKey": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "cards": {
+      "type": "component",
+      "component": "sections.feature-card",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

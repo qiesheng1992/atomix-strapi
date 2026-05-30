@@ -1,0 +1,70 @@
+{
+  "collectionName": "components_shared_shared_seos",
+  "info": {
+    "displayName": "seo"
+  },
+  "options": {},
+  "attributes": {
+    "metaTitle": {
+      "type": "string"
+    },
+    "metaDescription": {
+      "type": "text"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "canonicalUrl": {
+      "type": "string"
+    },
+    "robots": {
+      "type": "string"
+    },
+    "ogTitle": {
+      "type": "string"
+    },
+    "ogDescription": {
+      "type": "string"
+    },
+    "ogImageUrl": {
+      "type": "string"
+    },
+    "ogImageAlt": {
+      "type": "string"
+    },
+    "ogType": {
+      "type": "enumeration",
+      "enum": [
+        "website",
+        "article",
+        "product"
+      ]
+    },
+    "twitterCard": {
+      "type": "enumeration",
+      "enum": [
+        "summary",
+        "summary_large_image"
+      ]
+    },
+    "twitterTitle": {
+      "type": "string"
+    },
+    "twitterDescription": {
+      "type": "text"
+    },
+    "twitterImageUrl": {
+      "type": "string"
+    },
+    "baiduSiteVerification": {
+      "type": "string"
+    },
+    "bingSiteVerification": {
+      "type": "string"
+    },
+    "clarityProjectId": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

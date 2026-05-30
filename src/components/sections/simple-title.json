@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_sections_simple_titles",
+  "info": {
+    "displayName": "simple-title"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "enabled": {
+      "type": "boolean"
+    }
+  },
+  "config": {}
+}
