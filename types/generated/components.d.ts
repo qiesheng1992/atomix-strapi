@@ -39,10 +39,10 @@ export interface BusinessProcessTab extends Struct.ComponentSchema {
   };
 }
 
-export interface PageTemplateHero extends Struct.ComponentSchema {
-  collectionName: 'components_page_template_heroes';
+export interface PageSolutionHero extends Struct.ComponentSchema {
+  collectionName: 'components_page_solution_heroes';
   info: {
-    displayName: 'template-hero';
+    displayName: 'solution-hero';
   };
   attributes: {
     ctaButtons: Schema.Attribute.Component<'shared.shared-cta-button', true>;
@@ -228,7 +228,7 @@ declare module '@strapi/strapi' {
       'business.process-node': BusinessProcessNode;
       'business.process-row': BusinessProcessRow;
       'business.process-tab': BusinessProcessTab;
-      'page.template-hero': PageTemplateHero;
+      'page.solution-hero': PageSolutionHero;
       'sections.business-process': SectionsBusinessProcess;
       'sections.card-grid': SectionsCardGrid;
       'sections.faq': SectionsFaq;

@@ -440,22 +440,23 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
-export interface ApiTemplatePageTemplatePage
+export interface ApiSolutionPageSolutionPage
   extends Struct.CollectionTypeSchema {
-  collectionName: 'template_pages';
+  collectionName: 'solution_pages';
   info: {
-    displayName: 'templatePage';
-    pluralName: 'template-pages';
-    singularName: 'template-page';
+    displayName: 'solutionPage';
+    pluralName: 'solution-pages';
+    singularName: 'solution-page';
   };
   options: {
     draftAndPublish: true;
   };
   attributes: {
-    aiEditSection: Schema.Attribute.Component<'sections.media-cta', true>;
+    aiEditSection: Schema.Attribute.Component<'sections.media-cta', false>;
+    appId: Schema.Attribute.String;
     businessProcessSection: Schema.Attribute.Component<
       'sections.business-process',
-      true
+      false
     >;
     category: Schema.Attribute.Enumeration<
       ['inventory', 'crm', 'project', 'workflow']
@@ -465,26 +466,26 @@ export interface ApiTemplatePageTemplatePage
       Schema.Attribute.Private;
     dataSecuritySection: Schema.Attribute.Component<
       'sections.simple-title',
-      true
+      false
     >;
-    faqSection: Schema.Attribute.Component<'sections.faq', true>;
-    finalCtaSection: Schema.Attribute.Component<'sections.simple-title', true>;
-    hero: Schema.Attribute.Component<'page.template-hero', true>;
+    faqSection: Schema.Attribute.Component<'sections.faq', false>;
+    finalCtaSection: Schema.Attribute.Component<'sections.simple-title', false>;
+    hero: Schema.Attribute.Component<'page.solution-hero', false>;
     isFeatured: Schema.Attribute.Boolean;
     locale: Schema.Attribute.String & Schema.Attribute.Private;
     localizations: Schema.Attribute.Relation<
       'oneToMany',
-      'api::template-page.template-page'
+      'api::solution-page.solution-page'
     > &
       Schema.Attribute.Private;
     publishedAt: Schema.Attribute.DateTime;
     schemaJson: Schema.Attribute.JSON;
-    seo: Schema.Attribute.Component<'shared.shared-seo', true>;
+    seo: Schema.Attribute.Component<'shared.shared-seo', false>;
     slug: Schema.Attribute.UID;
     sortOrder: Schema.Attribute.Integer;
     suitableTeamsSection: Schema.Attribute.Component<
       'sections.card-grid',
-      true
+      false
     >;
     templateCode: Schema.Attribute.Text;
     templateName: Schema.Attribute.Text;
@@ -492,7 +493,7 @@ export interface ApiTemplatePageTemplatePage
     updatedAt: Schema.Attribute.DateTime;
     updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
       Schema.Attribute.Private;
-    whyChooseSection: Schema.Attribute.Component<'sections.card-grid', true>;
+    whyChooseSection: Schema.Attribute.Component<'sections.card-grid', false>;
   };
 }
 
@@ -1007,7 +1008,7 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
-      'api::template-page.template-page': ApiTemplatePageTemplatePage;
+      'api::solution-page.solution-page': ApiSolutionPageSolutionPage;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

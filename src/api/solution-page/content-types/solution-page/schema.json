@@ -1,10 +1,10 @@
 {
   "kind": "collectionType",
-  "collectionName": "template_pages",
+  "collectionName": "solution_pages",
   "info": {
-    "singularName": "template-page",
-    "pluralName": "template-pages",
-    "displayName": "templatePage"
+    "singularName": "solution-page",
+    "pluralName": "solution-pages",
+    "displayName": "solutionPage"
   },
   "options": {
     "draftAndPublish": true
@@ -16,6 +16,9 @@
     },
     "slug": {
       "type": "uid"
+    },
+    "appId": {
+      "type": "string"
     },
     "templateName": {
       "type": "text"
@@ -40,48 +43,48 @@
     },
     "hero": {
       "type": "component",
-      "component": "page.template-hero",
-      "repeatable": true
+      "component": "page.solution-hero",
+      "repeatable": false
     },
     "whyChooseSection": {
       "type": "component",
       "component": "sections.card-grid",
-      "repeatable": true
+      "repeatable": false
     },
     "businessProcessSection": {
       "type": "component",
       "component": "sections.business-process",
-      "repeatable": true
+      "repeatable": false
     },
     "suitableTeamsSection": {
       "type": "component",
       "component": "sections.card-grid",
-      "repeatable": true
+      "repeatable": false
     },
     "aiEditSection": {
       "type": "component",
       "component": "sections.media-cta",
-      "repeatable": true
+      "repeatable": false
     },
     "dataSecuritySection": {
       "type": "component",
       "component": "sections.simple-title",
-      "repeatable": true
+      "repeatable": false
     },
     "faqSection": {
       "type": "component",
       "component": "sections.faq",
-      "repeatable": true
+      "repeatable": false
     },
     "finalCtaSection": {
       "type": "component",
       "component": "sections.simple-title",
-      "repeatable": true
+      "repeatable": false
     },
     "seo": {
       "type": "component",
       "component": "shared.shared-seo",
-      "repeatable": true
+      "repeatable": false
     },
     "schemaJson": {
       "type": "json"
